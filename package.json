@@ -1,0 +1,13 @@
+{
+  "name": "apcn-2027",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:attendee":       "npm run dev --prefix apps/attendee",
+    "dev:congress-admin": "npm run dev --prefix apps/congress-admin",
+    "dev:hotel-admin":    "npm run dev --prefix apps/hotel-admin",
+    "dev:sponsor-admin":  "npm run dev --prefix apps/sponsor-admin",
+    "dev:super-admin":    "npm run dev --prefix apps/super-admin",
+    "build:all": "npm run build --prefix apps/attendee && npm run build --prefix apps/congress-admin && npm run build --prefix apps/hotel-admin && npm run build --prefix apps/sponsor-admin && npm run build --prefix apps/super-admin"
+  }
+}

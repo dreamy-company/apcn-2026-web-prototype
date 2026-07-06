@@ -1,10 +1,10 @@
 {
-  "name": "apcn-2027-attendee",
+  "name": "apcn-2027-sponsor-admin",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5177",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
